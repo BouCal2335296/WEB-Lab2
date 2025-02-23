@@ -49,49 +49,28 @@
     </div>
   </div>
 
-  <div class="container pb-5 pt-3">
-    <div class="row custom-row">
-      <!-- Première colonne (Search Bar) -->
-      <div class="col-12 col-md-6">
-        <div class="d-flex justify-content-center h-100">
-          <div class="searchbar bgWhite">
-            <div class="row custom-row align-items-center">
-              <div class="col-11 pl-5">
-                <input class="search_input" type="text" name="" placeholder="Search...">
-              </div>
-              <div class="col-1">
-                <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
-              </div>
-            </div>
-          </div>
+  <div class="formulaire-ajout d-flex h-75 justify-content-center">
+    <div class="col-10 col-md-9 mt-4 mt-md-3 d-flex justify-content-center align-items-center bgDarkLight glow-effect rounded-4">
+      <form>
+        <label for="titre" class="lora-font text-white">Titre :</label><br>
+        <input type="text" id="titre" name="titre" class="rounded-3 bgDark text-white" placeholder="Insérer le titre"><br>
+
+        <label for="auteur" class="lora-font text-white">Auteur :</label><br>
+        <input type="text" id="auteur" name="auteur" class="rounded-3 bgDark text-white" placeholder="Insérer l'auteur"><br>
+
+        <label for="contenu" class="lora-font text-white">Contenu :</label><br>
+        <textarea type="text" id="contenu" name="contenu" class="rounded-3 w-100 bgDark text-white" placeholder="Insérer le contenu"></textarea><br>
+
+        <div class="d-flex justify-content-end">
+          <button type="submit" id="ajouter" class="btn mt-4 btn-primary rounded-3 bgBlue text-white lora-font">Ajouter</button>
         </div>
-      </div>
-    
-      <!-- Deuxième colonne (Trier par) -->
-      <div class="col-12 col-md-6">
-        <div class="container">
-          <div class="row custom-row align-items-center text-center">
-            <div class="col-5">
-              <p class="pt-3 lora-font text-white">Trier par :</p>
-            </div>
-            <div class="col-7">
-              <select class="form-select border-dark bgWhite" name="" id="trier">
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-              </select>
-            </div>
-          </div>
+        <div class="d-flex justify-content-end">
+          <button type="submit" id="confirmer" class="btn mt-4 btn-primary rounded-3 bgBlue text-white lora-font" hidden>Confirmer</button>
         </div>
-      </div>
+      </form>
     </div>
   </div>
-    
-  <div class="container">
-    <div class="row d-flex justify-content-center justify-content-md-start" id="card-container">
-      
-    </div>
-  </div>
+
 
   <div class="container pt-5">
     <div class="row">
@@ -114,13 +93,13 @@
   </div>
     
   <div class="container pt-5">
-    <div class="row d-flex Open-Sans-font text-white"><p class="Open-Sans-font d-flex justify-content-center">Centre d'expertise et de perfectionnement en informatique</p></div>
-    <div class="row d-flex Open-Sans-font text-white"><p class="Open-Sans-font d-flex justify-content-center">2025</p></div>
+  <div class="row d-flex Open-Sans-font text-white"><p class="Open-Sans-font d-flex justify-content-center">Centre d'expertise et de perfectionnement en informatique</p></div>
+  <div class="row d-flex Open-Sans-font text-white"><p class="Open-Sans-font d-flex justify-content-center">2025</p></div>
   </div>
 
-  <!-- Librairie JQuery -->
+
   <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-  <!-- Script index.js -->
-  <script src="script/principale.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.min.js" integrity="sha256-sw0iNNXmOJbQhYFuC9OF2kOlD5KQKe1y5lfBn4C9Sjg=" crossorigin="anonymous"></script>
+  <script src="script/formulaireAjoutPublication.js"></script>
 </body>
 </html>
