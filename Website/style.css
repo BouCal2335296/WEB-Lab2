@@ -11962,4 +11962,20 @@ textarea.form-control-lg {
   height: 200px;
 }
 
+.ui-dialog {
+  border: 1px solid #00ADB5;
+  border-radius: 10px;
+  background-color: #222831;
+}
+
+.ui-dialog-buttonset button {
+  background-color: #00ADB5;
+  border-radius: 150px;
+  width: 100%;
+}
+
+.ui-dialog-titlebar-close {
+  visibility: hidden;
+}
+
 /*# sourceMappingURL=style.css.map */
