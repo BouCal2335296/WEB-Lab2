@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
         modal: true,  // Empêche l'interaction avec le reste du site
         buttons: {
             "Confirmer": function () {
-                //ajouterPublication();
+                ajouterPublication();
                 $(this).dialog("close");
             },
             "Annuler": function () {

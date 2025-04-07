@@ -122,6 +122,12 @@
       "blogId": "1",
       "date": "2025-02-23",
       "contenu": "Test"
+    },
+    {
+      "id": "932a",
+      "blogId": "1",
+      "date": "2025-03-11",
+      "contenu": "test insertion"
     }
   ]
 }
